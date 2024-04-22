@@ -35,12 +35,12 @@ const ProfileDropdown = () => {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <div className="absolute right-0 mt-2 w-30 bg-white rounded-md shadow-lg z-10">
+        <div className="absolute right-0 mt-2 w-25 mr-2 bg-white rounded-lg shadow-lg z-10">
           <ul className="py-2">
-            <li>
+            <li className=''>
               <Link href="/pages/login">
-                <button onClick={toggleDropdown} className="block px-4 py-2 w-30 text-gray-800 hover:bg-gray-200">
-                  Login
+                <button onClick={toggleDropdown} className="block px-4 py-2 w-30 text-gray-800 hover:bg-gray-200 hover:w-30">
+                  Login  
                 </button>
               </Link>
             </li>
