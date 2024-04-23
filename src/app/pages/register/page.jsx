@@ -32,7 +32,10 @@ function Copyright(props) {
 
 const defaultTheme = createTheme();
 
-const countries = ["India","USA", "Canada", "UK", "Australia"]; // Add more countries as needed
+// Country list is here 
+const countries = ["India","USA", "Canada", "UK", "Australia"]; 
+
+//This is the list from category 
 const categories = ["AIF", "Bonds", "Corporate FD", "Global Equity", "IFA", "Mutual Funds", "PMS", "Real Estate", "Tax Consultancy"];
 
 export default function SignUp() {
